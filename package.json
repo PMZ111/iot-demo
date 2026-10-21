@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "pub": "node publisher.js",
-    "sub": "node subscriber.js"
+    "sub": "node subscriber.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
+    "express": "^5.3.0",
+    "fast-unique-numbers": "^10.0.1",
     "mqtt": "^5.0.0"
   }
 }
